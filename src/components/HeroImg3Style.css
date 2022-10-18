@@ -1,0 +1,55 @@
+.hero-img {
+    width: 100%;
+    background: rgb(1, 1, 1, 0.5);
+    height: 60vh;
+    position: relative;
+}
+
+.hero-img::before{
+    content:"";
+    background-image: url("../assets/vaporwaveipad.png");
+    background-size: cover;
+    background-position: center top;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-img h1 {
+    font-size: 3.4rem;
+}
+
+.hero-img p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:640px) {
+
+    .hero-img h1 {
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+    .hero-img p {
+        font-size: 1.2rem;
+        
+    }
+
+}
