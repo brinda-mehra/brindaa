@@ -5,6 +5,7 @@ import Work from '../components/Work';
 import Footer from '../components/Footer';
 
 const Home = () => {
+  window.scrollTo(0, 0)
   return (
     <div>
       <Navbar></Navbar>

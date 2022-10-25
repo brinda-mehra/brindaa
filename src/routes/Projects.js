@@ -7,6 +7,7 @@ import Work from '../components/Work';
 
 
 const Projects = () => {
+  window.scrollTo(0, 0)
   return (
     <div>
       <Navbar></Navbar>

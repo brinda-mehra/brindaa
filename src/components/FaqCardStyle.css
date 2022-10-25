@@ -61,3 +61,22 @@
 
     
 }
+
+@media  screen and (max-width:1000px) {
+
+    .card-container{
+        max-width: 90%;
+        margin:auto;
+        grid-template-columns: 1fr ;
+    }
+
+    .card p {
+        font-size: 1.3rem;
+    }
+
+    .d {
+        font-size: 0.95rem;
+    }
+
+    
+}

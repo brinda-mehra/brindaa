@@ -1,6 +1,7 @@
 import pro1 from "../assets/chatbot.png"
-import pro2 from "../assets/respeaker.png"
-import pro3 from "../assets/3dmodel.png"
+import pro2 from "../assets/3dmodel.png"
+import pro3 from "../assets/iterativedraft.png"
+
 
 
 const ProjectCardData = [
@@ -12,21 +13,23 @@ const ProjectCardData = [
         paper:"https://www.sciencedirect.com/science/article/pii/S2590291121000279",
     },
 
+
     {
         imgsrc: pro2,
-        title: "Iterative Drafting",
-        text:  "Theory-based workflow for speech-to-text systems ",
+        title: "AngleCAD: Mobile 3D Modelling",
+        text:  "Exploring 3D modelling on foldable phones ",
         view:"",
         paper:"",
     },
 
     {
         imgsrc: pro3,
-        title: "AngleCAD: Mobile 3D Modelling",
-        text:  "Exploring 3D modelling on foldable phones ",
+        title: "Iterative Drafting",
+        text:  "Theory-based workflow for speech-to-text systems ",
         view:"",
         paper:"",
-    }
+    },
+
 ]; 
 
 export default ProjectCardData

@@ -15,8 +15,8 @@ const HeroImg = () => {
         <h1> Hi! I'm Brinda</h1>
         <h2>UX Researcher by Day // Couch Potato by Night </h2>
         <div>
-          <Link to={"/projects"} className="btn">Projects</Link>
-          <Link to={"/about"} className="btn-light">About</Link>
+          <Link to={"/projects"} className="btn">My Projects</Link>
+          <Link to={"/about"} className="btn-light">My Resumé</Link>
         </div>
 
       </div>

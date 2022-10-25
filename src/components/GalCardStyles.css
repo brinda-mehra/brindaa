@@ -1,6 +1,16 @@
+
+.gal-container {
+    background-color: #c5edf1
+}
 .gal-heading{
     text-align: center;
-    padding: 4rem 0 2rem 0;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Orbitron", "Poppins";
+    letter-spacing: 0.5rem;
+    font-size: 3.1rem;
+    font-weight: bold;
+    padding: 3rem 0 4rem 0;
 }
 
 .galproj-container{
@@ -13,7 +23,7 @@
 }
 
 .galproj-card{
-    background: #9262b7;
+    background: #B7626d;
     padding: 1.2rem 1rem ;
 }
 
@@ -24,7 +34,7 @@
 }
 
 .gal-title{
-    color: white;
+    color: black;
     font-size: 1.9rem;
     padding: 1rem 0;
     text-align: center;
@@ -32,6 +42,7 @@
 
 .gal-details p{
     padding-bottom: 1rem;
+    color: black;
     font-size: 0.95rem;
     text-align: center;
 
@@ -39,7 +50,7 @@
 
 .gal-btns{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 1rem;
 }
 
@@ -50,7 +61,7 @@
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
     .galproj-container {
         max-width: 90%;
         margin: auto;

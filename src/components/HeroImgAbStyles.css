@@ -1,7 +1,7 @@
 .heroimg2 {
     width: 100%;
     background: rgb(0, 0, 0, 0.55);
-    height: 80vh;
+    height: 90vh;
     position: relative;
 }
 
@@ -29,7 +29,7 @@
 
 .heroimg2 h1 {
     font-size: 3.4rem;
-    padding-top: 2rem;
+    padding-top: 7rem;
 }
 
 .heroimg2 p {
@@ -58,5 +58,26 @@
     .txt2, .txt3 {
         display: none;
     }
+    
+}
+
+
+@media  screen and (max-width:900px) {
+
+    .heroimg2::before {
+        background-size: cover;
+    }
+
+    .heroimg2 h1 {
+        font-size: 2.4rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .heroimg2 p {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    }
+    
     
 }

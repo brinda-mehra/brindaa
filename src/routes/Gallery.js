@@ -5,6 +5,7 @@ import Gal from '../components/Gal'
 import Footer from '../components/Footer'
 
 const Gallery = () => {
+  window.scrollTo(0, 0)
   return (
     <div>
         <Navbar></Navbar>

@@ -7,9 +7,9 @@ import Gallery from './routes/Gallery';
 import Contact from "./routes/Contact"
 import { Route, Routes } from 'react-router-dom';
 
+
 function App() {
   return (
-    <>
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/about' element={<About />}/>
@@ -17,7 +17,6 @@ function App() {
         <Route path='/gallery' element={<Gallery />}/>
         <Route path='/contact' element={<Contact />}/>
       </Routes>
-    </>
   );
 }
 
