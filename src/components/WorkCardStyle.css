@@ -1,6 +1,12 @@
+.work-container{
+    background-color: 	#f1b9a6df;
+}
+
 .project-heading {
     text-align: center;
     padding: 4rem 0 2rem 0;
+    font-size: 3rem;
+    text-transform: uppercase;
 }
 
 .project-container {

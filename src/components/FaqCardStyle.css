@@ -1,36 +1,38 @@
 .information{
     width: 100%;
     padding: 6rem 1rem;
-    background: black;
+    background-color: 	#f1b9a6df;
 }
 
 .card-container{
     max-width: 1140px;
     margin:auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    grid-gap: 40px ;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-gap: 30px ;
 }
 
 .card {
-    border: 1px solid #fff;
     color: #eee;
+    background-color: rgba(155, 77, 89, 0.377);
     text-align: center;
     padding: 1rem;
+    border-radius: 20px;
 }
 
-.card:hover {
-    background-color: rgb(147, 54, 68);
-}
 
 .card h2 {
     font-size: 1.3rem;
     padding: 0.7rem 1rem;
+    font-family: "Orbitron";
+    text-transform: uppercase;
+    color: rgb(222, 222, 111);
 }
 
 
 .card p {
     padding: 10px 10px;
+    color: black;
 }
 
 .bar {
@@ -41,13 +43,14 @@
 
 .d {
     font-size: 0.85rem;
-    text-align: justify;
+    text-align: match-parent;
 }
 
 .btc{
     font-size: 1.04rem;
-    font-weight: 600;
+    font-weight: bold;
     padding: 1rem 0;
+    color: black;
 }
 
 

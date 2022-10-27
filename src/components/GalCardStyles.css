@@ -1,12 +1,12 @@
 
 .gal-container {
-    background-color: #c5edf1
+    background-color: 	#f1b9a6df;
 }
 .gal-heading{
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
-    font-family: "Orbitron", "Poppins";
+    font-family: "Poppins";
     letter-spacing: 0.5rem;
     font-size: 3.1rem;
     font-weight: bold;
@@ -32,6 +32,7 @@
     width: 100%;
 
 }
+
 
 .gal-title{
     color: black;

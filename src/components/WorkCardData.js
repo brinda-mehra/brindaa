@@ -1,6 +1,6 @@
 import pro1 from "../assets/chatbot.png"
 import pro2 from "../assets/3dmodel.png"
-import pro3 from "../assets/iterativedraft.png"
+import pro3 from "../assets/interaction.png"
 
 
 
@@ -8,9 +8,9 @@ const ProjectCardData = [
     {
         imgsrc: pro1,
         title: "Chatbot Personality Preferences",
-        text:  "Exploring how different chatbot personalities affect the user experience ",
-        view:"",
-        paper:"https://www.sciencedirect.com/science/article/pii/S2590291121000279",
+        text:"Exploring how different chatbot personalities affect the user experience ",
+        view:"url.com",
+        paper:"https://www.sciencedirect.com/science/article/pii/S2590291121000279"
     },
 
 
@@ -24,10 +24,10 @@ const ProjectCardData = [
 
     {
         imgsrc: pro3,
-        title: "Iterative Drafting",
-        text:  "Theory-based workflow for speech-to-text systems ",
-        view:"",
-        paper:"",
+        title: "Interaction Techniques for Foldable Phones",
+        text:"Understanding the efficacy of different interaction techniques for foldable phones",
+        view:"url.com",
+        paper:"google.com"
     },
 
 ]; 

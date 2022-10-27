@@ -29,6 +29,13 @@ const faqcard = () => {
                 <p className="d">Not to be trite, but as the UMSI motto declares: Information Changes Everything. I hope to take my degree into all sorts of industries, not just Big Tech or Big Consulting to help revolutionze the way people treat information. Some of my current interests are sustainability, assistive technologies and policy.</p>
             </div>
 
+            <div className="card">
+                <h2><GiBee size={27} style={{ color: "#FDFD96", marginRight: "1.rem", marginLeft:"0.8rem"}}/> Bee Fact #4</h2>
+                <span className="bar"></span>
+                <p className="btc"> Where did the images on your website come from?</p>
+                <p className="d">Not to be trite, but as the UMSI motto declares: Information Changes Everything. I hope to take my degree into all sorts of industries, not just Big Tech or Big Consulting to help revolutionze the way people treat information. Some of my current interests are sustainability, assistive technologies and policy.</p>
+            </div>
+
         </div>
     </div>
   )
